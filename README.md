@@ -96,5 +96,27 @@ An internal request-and-approval platform: employees submit requests (cash advan
 
 ---
 
+## 10. SCADA → ERP Integration ⚙️
+**Internal tool · industrial data pipeline (confidential client)**
+
+An integration service that pulls production and consumption data from an industrial SCADA supervisory layer and posts it automatically into an ERP (SAP Business One) — turning shop-floor telemetry into accurate inventory/consumption records without manual re-keying.
+
+**Tech:** C# / .NET · SAP Business One · SCADA data sources
+
+> ⚠️ Confidential client engagement — capability described only; no client identity, data, or source.
+
+---
+
+## 11. Certificate-Issuance Workflow Portal 📜
+**Internal tool · regulated document workflow (confidential client)**
+
+A portal that runs a certificate-issuance process end-to-end: applicants submit requests, reviewers and approvers act in sequence, and approved certificates are generated as documents and delivered by email — with role-based access and an auditable workflow throughout.
+
+**Tech:** Next.js · NestJS · MongoDB · Redis (job queue) · object storage · JWT auth (pnpm monorepo)
+
+> ⚠️ Confidential client engagement — capability described only; no client identity, data, or source.
+
+---
+
 ### 📫 Contact
 **jason.guijo2160@gmail.com** · Open to full-stack / backend roles
