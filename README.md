@@ -4,8 +4,8 @@ Case studies of the systems I've designed and shipped. Each entry is what the pr
 
 ---
 
-## 1. National CMMS Platform — *Vienovo* 🏭
-**Production system · multi-plant maintenance management**
+## 1. National CMMS Platform 🏭
+**Production system · multi-plant maintenance management · client project (proprietary)**
 
 A computerized maintenance-management system for a national manufacturing operation. One dashboard where technicians, planners, and managers run work orders across multiple plants.
 
@@ -15,11 +15,11 @@ A computerized maintenance-management system for a national manufacturing operat
 - **Multi-tier cost-approval engine** — approval chains that branch on cost thresholds, with emergency-bypass rules and a full audit trail.
 - **Data-layer migration** — moved the source of truth off a fragile shared spreadsheet onto MongoDB, with a write-through mirror and an outage-fallback design so the system degrades gracefully.
 - **SAP Goods-Issue integration** — auto-posts inventory movements on validation/approval.
-- **Performance & reliability** — cut technician save latency from ~7s to ~1.1s; found and fixed a cache/circuit-breaker bug that was masking correct data in production.
+- **Performance & reliability** — cut technician save latency from ~7s to ~1.1s; found and fixed a cache/circuit-breaker bug masking correct data in production.
 
 **Tech:** TypeScript · Node.js/Express · React · MongoDB · Telegram Bot API · SAP · Azure · Vercel
 
-> ⚠️ Source is proprietary to the employer. This is a description of my contribution, not a code release.
+> ⚠️ Client source is proprietary. This is a description of my contribution, not a code release.
 
 ---
 
@@ -39,21 +39,31 @@ A Y2K chrome-metallic photobooth in the browser.
 
 ---
 
-## 3. portfolio 🎨
-**[Live](https://portfolio-lovat-ten-51.vercel.app) · [Repo](https://github.com/jason012223/portfolio)**
+## 3. Y2K Editorial Booth 💿
+Browser-based photobooth concept focused on real-time Y2K face stickers, live camera filters, and polished editorial exports. Uses on-device face-landmark tracking for sticker placement.
 
-My personal portfolio site. Built with Next.js.
-
-**Tech:** Next.js · CSS
+**Tech:** React · MediaPipe (face landmarks) · GSAP · Framer Motion · OGL
 
 ---
 
-## 4. VirtualArtGallery 🖼️
-**[Repo](https://github.com/jason012223/VirtualArtGallery)**
+## 4. BudgetTracker 📊
+Offline-first personal budget tracker built for the Philippines. Native Android — one-time-purchase core, with cloud + bank sync planned as a v2 add-on.
 
-A virtual art-gallery web experience.
+**Tech:** Kotlin · Jetpack Compose · Android
 
-**Tech:** JavaScript
+---
+
+## 5. Trading System 📈
+Honest backtesting and signal engine for US stocks and forex — built to test strategies without lookahead bias or curve-fit optimism.
+
+**Tech:** Python
+
+---
+
+## 6. agentic-os 🤖
+A personal AI-assisted development hub that ties together code knowledge graphs and a project-memory vault, so an AI assistant is oriented on each project automatically.
+
+**Tech:** Python · knowledge graphs · local tooling
 
 ---
 
