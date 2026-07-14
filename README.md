@@ -67,5 +67,34 @@ A personal AI-assisted development hub that ties together code knowledge graphs 
 
 ---
 
+## 7. Virtual Art Gallery 🖼️
+**[Repo](https://github.com/jason012223/VirtualArtGallery)**
+
+A museum rendered in 3D that you walk through in first-person. Joystick / on-screen controls for movement and look, so visitors roam the halls and view the exhibits from any angle — a virtual gallery in the browser.
+
+**Tech:** Three.js · WebGL · JavaScript
+
+---
+
+## 8. IT Operations Dashboard 🖥️
+**Internal tool · organization deployment**
+
+An internal IT-operations dashboard for managing helpdesk tickets, assets, network monitoring, and purchasing from one place.
+
+**Tech:** Next.js · React · Prisma · PostgreSQL
+
+---
+
+## 9. Forms & Approval-Workflow System 📝
+**Internal tool · organization deployment**
+
+An internal request-and-approval platform: employees submit requests (cash advances, reimbursements, travel bookings, custom forms), approvers act on them, processors finalize, and admins manage form definitions, users, roles, and settings.
+
+**Tech:** Next.js · MongoDB (Mongoose) · Firebase
+
+> ⚠️ Built for an employer — this describes my contribution, not a code release.
+
+---
+
 ### 📫 Contact
 **jason.guijo2160@gmail.com** · Open to full-stack / backend roles
